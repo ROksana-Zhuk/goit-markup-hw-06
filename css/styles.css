@@ -257,7 +257,7 @@ ul {
 
 @media only screen and (min-width: 1158px) {
   .solutions {
-    padding: 118px 0;
+    padding: 188px 0;
     max-width: 1440px;
     }
 }
@@ -989,6 +989,10 @@ footer .form-icons {
     margin-bottom: 40px;
 }
 
+.mobile-items:last-child {
+    margin-bottom: 0;
+}
+
 .mobile-nav-link {
     color: #2E2F42;
 }
@@ -1006,6 +1010,7 @@ footer .form-icons {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     margin-top: 24px;
+    font-style: normal;
 }
 .contacts-address {
     color: #434455;
